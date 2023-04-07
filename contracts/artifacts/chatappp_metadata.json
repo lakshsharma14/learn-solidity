@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "chat",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to_",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "message_",
+						"type": "string"
+					}
+				],
+				"name": "setchat",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EVENTS.sol": "chatappp"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EVENTS.sol": {
+			"keccak256": "0xfcd7e6f107d3250b20ef02b78b19d1802bca970e7b46bde21ad0635b2105e209",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b7fcd9c74c26b4bf1d48aca9a8a32584b7db84f024d85f2c5d6ec53d61c3c05",
+				"dweb:/ipfs/QmbGupaDbou1APy2MaBAmiGTMNM4x4cDooDYDE9uq8fRC1"
+			]
+		}
+	},
+	"version": 1
+}

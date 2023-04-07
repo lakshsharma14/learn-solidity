@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "CONTINUE",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"continue&break.sol": "CONTINUEBREAK"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"continue&break.sol": {
+			"keccak256": "0x1a22865aedfbfeaacc87dc73b1f507531f4fbb3d37f08e372507152223c405de",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6948edb88200579600a9958431b5860564f011209bbe6a2aa193d491284ba36a",
+				"dweb:/ipfs/QmTteCNMeF7zvYfHTbgHdpzc4kixdsmhok5KjhBxPTWkQq"
+			]
+		}
+	},
+	"version": 1
+}

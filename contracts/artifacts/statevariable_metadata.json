@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/statevariable.sol": "statevariable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/statevariable.sol": {
+			"keccak256": "0x16b5f2015fa11e58345c9f974d7189f269a9637de301e33f9ac97fcc0ccf9ffa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://518c108e4c00e91b0d33f0bb12b0c98d6a7359fb3ea58eff35a367b9c493d7bb",
+				"dweb:/ipfs/QmdphkNA9wGF67D7tibPG6vqkxruEd2vqbNweiriL14Hut"
+			]
+		}
+	},
+	"version": 1
+}

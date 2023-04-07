@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "delstatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getstatus",
+				"outputs": [
+					{
+						"internalType": "enum ENUM.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rej",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum ENUM.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "setstatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ENUMsol.sol": "ENUM"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ENUMsol.sol": {
+			"keccak256": "0x1416af0ced950811907cebcdfdb8dcd3f9913613947d48ecd49b430572fdacf8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b819091e99491c8806b7642b8f8939cf29e4b5de938eb209f7fc7211887e3cc0",
+				"dweb:/ipfs/QmSAAxLfsfxWD23vvyT7YL14U6bXTpv7CqUhe7MLcD3avq"
+			]
+		}
+	},
+	"version": 1
+}

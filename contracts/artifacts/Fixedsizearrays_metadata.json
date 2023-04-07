@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getarray",
+				"outputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "",
+						"type": "uint256[5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/fixedsizearray.sol": "Fixedsizearrays"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/fixedsizearray.sol": {
+			"keccak256": "0xbbb9efea3bc9fd6ce81115588220ae2758a5a4843001d9f2b777c0d186d0fb71",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://027e239ed7b34012ee062ae63909dfc3035a716bf60c207978ec3fbc76c46fa5",
+				"dweb:/ipfs/QmaJEg43W3sGuMok6eRt3YP2PQpKhKWWviiMJ2E7a58Sj6"
+			]
+		}
+	},
+	"version": 1
+}

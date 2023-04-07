@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getarray",
+				"outputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "",
+						"type": "uint256[5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/getFUCNTIONarray.sol": "GETFUCNTIONARRAY"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/getFUCNTIONarray.sol": {
+			"keccak256": "0x35acc93ad441cc48900453a9149bfc0d3adb4c118b6fd40b5b9332cf963bc6f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://52a58bf6c253f0741b8bf42e2523a9cd57a50657d886cc3549495bb04f08babc",
+				"dweb:/ipfs/QmTopWZSGFFQZEYP4RphpU5dW2kfXam2prH5ZUeeVbrULC"
+			]
+		}
+	},
+	"version": 1
+}

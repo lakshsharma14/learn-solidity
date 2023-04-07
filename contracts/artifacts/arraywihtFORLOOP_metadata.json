@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "arraywithloop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/arraywithforloop.sol": "arraywihtFORLOOP"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/arraywithforloop.sol": {
+			"keccak256": "0xd347299e1a8ce0312b7fbf147fa5e73f0b5cb478a7fdd7c58f9360bd3ae48d27",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ebdba8582a7b3d83c336f4b0b229a21bf09f837c1aa0a8c63046de8534d81884",
+				"dweb:/ipfs/QmSC3nGEzQvtxZ1rdB8yPvq28rw1qHpPL9dBV5y218PB7T"
+			]
+		}
+	},
+	"version": 1
+}

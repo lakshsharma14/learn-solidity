@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getethh",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/send.eth.sol": "another"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/send.eth.sol": {
+			"keccak256": "0x9c169ee5f20d5c600cde5c44fc470ec76f7d72646015f80e7b1380ed4419ee72",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e59e6241bd21b102d669689da59128535cefe868225e42244fd45fab4024d580",
+				"dweb:/ipfs/QmTmTukTdk6L1xmArvEX614jJQhqHJjcCxYTMrmtDjPbgk"
+			]
+		}
+	},
+	"version": 1
+}

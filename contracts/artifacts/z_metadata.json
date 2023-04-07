@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checke",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/VISIBILITY.sol": "z"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/VISIBILITY.sol": {
+			"keccak256": "0xc58dd3d9246c22dd3cd9cd8b3a117cd2afb75e24a8a735b8b1eb48e09293cff1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://da9c1fe25ecb76d8d18b1733389126c8ab9f5ac384083b39e5410ff2371aeb23",
+				"dweb:/ipfs/QmX4Ma9LrhYUansmq3EFLqbbgczy3bhuG6nBAqbBKyix7Q"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/virtual.override.sol": "virtualoverride"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/virtual.override.sol": {
+			"keccak256": "0xb6ed2cd4ff3bf2a8cc2b46841c61a5b884b5211912099051b4d4ea3caeb04a67",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40354dec2d08b9f7988c0af2eaeae615958af6db720fc5af1fafa7e17bf9643f",
+				"dweb:/ipfs/QmSLjcYkhP9VFzK9YHMTwCmfLndLMhC7b6oiQo8TQ3xrFG"
+			]
+		}
+	},
+	"version": 1
+}
